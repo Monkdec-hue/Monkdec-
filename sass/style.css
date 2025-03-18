@@ -222,7 +222,8 @@ a {
   grid-row: 2;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .imagen1 {
@@ -230,7 +231,8 @@ a {
   grid-row: 1/3;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .imagen3 {
@@ -238,7 +240,8 @@ a {
   grid-row: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .nuevacolección {
@@ -279,36 +282,42 @@ p {
   grid-row: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img2 {
-  columns: 2;
+  -moz-columns: 2;
+       columns: 2;
   grid-row: 1/3;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img3 {
   grid-column: 3;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img4 {
   grid-column: 4;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img5 {
   grid-column: 4;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .aboutus {
@@ -379,7 +388,8 @@ p {
 .img {
   width: 600px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: auto;
   display: block;
 }
@@ -439,7 +449,8 @@ p {
   grid-column: 4;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img7 {
@@ -447,7 +458,8 @@ p {
   grid-column: 1/3;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img6 {
@@ -455,7 +467,8 @@ p {
   grid-column: 3;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .img9 {
@@ -463,7 +476,8 @@ p {
   grid-column: 3;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
 }
 
 .blog {
@@ -552,6 +566,4 @@ footer {
   #contacto2 {
     flex-direction: column;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=style.css.map */
